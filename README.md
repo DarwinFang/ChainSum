@@ -9,4 +9,10 @@ To run the code, navigate to either `/ChainSum/chainsum/scripts/java` or `/Chain
 ```bash
 bash transformer.sh [Parameter 1] [Parameter 2]
 ```
-Here
+Here are two parameters. 
+(1) `[Parameter 1]` refers to the GPU ID(s). Set is to a specific number or several numbers separated by commas to enable the related GPU(s). On the other hand, no GPUs will be used if it is set to -1.
+(2) `[Parameter 2]` can be any model name you choose to specify.
+For example, the command can be: 
+```bash
+bash transformer.sh 0,1 code2jdoc
+```
