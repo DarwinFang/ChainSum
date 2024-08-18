@@ -12,7 +12,7 @@ bash transformer.sh [Parameter 1] [Parameter 2]
 
 There are two parameters. 
 
-(1) `[Parameter 1]` specifies the GPU ID(s). Set it to a specific number or several numbers separated by commas to enable the related GPU(s). On the other hand, no GPUs will be used if it is set to -1.
+(1) `[Parameter 1]` specifies the GPU ID(s). Set it to a specific number or several numbers separated by commas to enable the related GPU(s). On the other hand, only CPUs will be used if it is set to -1.
 
 (2) `[Parameter 2]` can be any model name you choose to specify.
 
